@@ -121,7 +121,8 @@ h3 {
 /* --- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/consulting.jpg); 
+    /*background-image: url(img/consulting.jpg);*/
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -132,7 +133,6 @@ header {
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 20px;
 }
 
 .logo-black { 
