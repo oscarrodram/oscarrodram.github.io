@@ -245,7 +245,7 @@ Note: a:active MUST come after a:hover in the CSS definition in order to be effe
 }
 
 .icon-small {
-    font-size: 120%;
+    font-size: 200%;
     color: dodgerblue;
     display: inline-block;
     width: 30px;
@@ -278,14 +278,14 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #1984ed;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
     color: #fff;
     margin-right: 15px;
 }
@@ -293,7 +293,7 @@ input[type=submit] {
 .btn-full:hover,
 .btn-full:active,
 input[type=submit] {
-    border: 1px solid #cf6d17;
+    border: 1px solid dodgerblue;
 }
 
 .btn-ghost:link,
@@ -310,7 +310,7 @@ input[type=submit] {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid dodgerblue;
 }
 
 /* --- */
@@ -358,6 +358,8 @@ input[type=submit] {
     transform: scale(1.03);
     opacity: 1;
 }
+
+
 
 /* --- */
 /* HOW IT WORKS */
@@ -458,7 +460,7 @@ blockquote {
     font-style: italic;
     line-height: 145%;
     position: relative;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 blockquote:before {
