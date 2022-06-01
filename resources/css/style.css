@@ -10,7 +10,7 @@
 
 html,
 body {
-    background-color: white;
+    background-color: #f1f3f4;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -125,6 +125,12 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+audio {
+    /*
+    float: right;
+    */
 }
 
 .logo,
